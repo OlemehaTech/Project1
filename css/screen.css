@@ -1,15 +1,17 @@
-
 body{
   background-color: #83A1E7;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;;
   font-size: 1.5em;
   margin: auto;
 }
+
+
 #title{
   text-align: center;
   background-color: #AF81E8;
-
 }
+
+
 h1{
   width: 70%;
   margin: 0 15% 0 15%;
@@ -18,12 +20,37 @@ h1{
   color: white;
   box-sizing: border-box;
 }
+
+
 h3{
   width: 98%;
   padding: 20px 10px 20px 10px;
   background-color: #F27DBB;
   font-size: 1.3em;
 }
+
+
+#content{
+  width: 90%;
+  margin: 5%;
+}
+
+
+form{
+  background-color: #F27DBB;
+  padding: 20px;
+  border-radius: 1em;
+  display:block;
+}
+
+
+fieldset{
+  background-color: #F0D4E3;
+  border-style: none;
+  padding: 15px;
+}
+
+
 @media screen and (min-width: 480px){
   body{
     font-size: 1.3em;
@@ -33,6 +60,10 @@ h3{
   }
   h3{
     font-size: 1.1em;
+  }
+  #content{
+    width: 80%;
+    margin: 5% 10% 5% 10%;
   }
 }
 @media screen and (min-width: 620px){
@@ -44,5 +75,9 @@ h3{
   }
   h3{
     font-size: 1em;
+  }
+  #content{
+    width: 70%;
+    margin: 5% 15% 5% 15%;
   }
 }
