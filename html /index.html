@@ -9,15 +9,69 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-<main id="content">
-	<h1>Sign Up for Game Beta Test </h1>
-	<p>Sign up and test new games for free.</p>
-	  <form method="get" action="#null">
-	    <ol>
-	      
-	    </ol>
-	  </form>
-</main>
-  
+	<main id="content">
+		<div id ="title">
+			<h1> Sign Up for Game Beta Test </h1>
+			<p> Sign up and test new games for free. </p>
+		</div>
+		  <form method = "get" action = "#null">
+		  	<fieldset>
+		    	<div id = "name_wrapper">
+		    		<p>Name:</p>
+
+		    		<div>
+			      	<label for = "first_name_field"> First Name: </label>
+			      	<input type = "text" name = "first" id = "first_name_field" placeholder = "First Name">
+						</div>
+
+						<div>
+			      	<label for = "last_name_field"> Last Name: </label>
+			      	<input type = "text" name = "last_name" id = "last_name_field" placeholder = "Last Name">
+			      </div>
+
+			      <div>
+			      	<label for = "username_field"> Username: </label>
+			      	<input type = "text" name = "username" id = "username_field">
+			      </div>
+
+			    </div>
+
+		     <div id = "email_wrapper">
+		      	<label for = "email_field"> Email: </label>
+		      	<input type = "email" name = "email" id = "email_field" placeholder = "example@gmail.com">
+		     </div>
+
+		     <div id = "phone_wrapper">
+		      	<label for = "phone_field"> Phone Number: </label>
+		      	<input type = "tel" name = "phone" id = "phone_field" placeholder = "(000)000-0000">
+		     </div>
+
+		     <div id = "date_wrapper">
+		      	<label for = "date_field"> Date of Birth: </label>
+		      	<input type = "date" name = "DOF" id = "date_field">
+		     </div>
+
+		     <div id = "check_age">
+		     		<input type = "checkbox" id = "age-verification" name = "age-verification" value ="18"/>
+		     		<label for = "age-verification"> Confirm that you are over 18 years old </label>
+		     </div>
+
+		     <div id ="notification_check">
+		     		<input type = "radio" id = "receive_games_email" name = "receive_games_email" value = "text">
+		     		<label for = "receive_games_email"> I would like to receive notifications of new games only to my email </label>
+
+		     		<input type = "radio" id = "receive_games_phone" name = "receive_games_phone" value = "text">
+		     		<label for = "receive_games_phone"> I would like to receive notifications of new games only to my phone number </label>
+
+		     		<input type = "radio" id = "phone_email" name = "phone_email" value = "text">
+		     		<label for = "phone_email"> I would like to receive notifications of new games to my phone number and email </label>
+		     </div>
+
+		     <div id = "submit_button">
+		     		<input id = "submit" type = "submit" value = "Sign Up.">
+		     </div>
+			  </fieldset>
+		  </form>
+	</main>
 </body>
 </html>
