@@ -17,7 +17,7 @@
 		  <form method = "get" action = "#null">
 		  	<fieldset>
 		    	<p>Enter Your Information</p>
-		    	<div id = "name_wrapper">
+		    	<div id = "input_wrapper">
 		    		<div>
 			      	<label for = "first_name_field"> First Name: </label>
 			      	<input type = "text" name = "first" id = "first_name_field" placeholder = "First Name">
@@ -32,42 +32,47 @@
 			      	<label for = "username_field"> Username: </label>
 			      	<input type = "text" name = "username" id = "username_field">
 			      </div>
-
+			      <div>
+			      	<label for = "email_field"> Email: </label>
+			      	<input type = "email" name = "email" id = "email_field" placeholder = "example@gmail.com">
+			      </div>
+			      <div>
+			      	<label for = "phone_field"> Phone Number: </label>
+			      	<input type = "tel" name = "phone" id = "phone_field" placeholder = "(000)000-0000">
+			      </div>
+			     	<div>
+			      	<label for = "date_field"> Date of Birth: </label>
+			      	<input type = "date" name = "DOF" id = "date_field">
+			     	</div>
 			    </div>
-
-		     <div id = "email_wrapper">
-		      	<label for = "email_field"> Email: </label>
-		      	<input type = "email" name = "email" id = "email_field" placeholder = "example@gmail.com">
-		     </div>
-
-		     <div id = "phone_wrapper">
-		      	<label for = "phone_field"> Phone Number: </label>
-		      	<input type = "tel" name = "phone" id = "phone_field" placeholder = "(000)000-0000">
-		     </div>
-
-		     <div id = "date_wrapper">
-		      	<label for = "date_field"> Date of Birth: </label>
-		      	<input type = "date" name = "DOF" id = "date_field">
-		     </div>
-
-		     <div id = "check_age">
-		     		<input type = "checkbox" id = "age-verification" name = "age-verification" value ="18"/>
+		    
+			   
+		     <div id ="game_check">
+		     		<h2> Choose the Games You Play:</h2>
+		     		<div>
+			     		<input type = "checkbox" id = "shooter_games" name = "shooter_games" value = "text">
+			     		<label for = "shooter_games"> Shooter Games </label>
+			     	</div>
+			     	<div>
+			     		<input type = "checkbox" id = "puzzle_games" name = "puzzle_games" value = "text">
+			     		<label for = "puzzle_games"> Puzzle Games </label>
+			     	</div>
+			     	<div>
+			     		<input type = "checkbox" id = "sports_games" name = "sports_games" value = "text">
+			     		<label for = "sports_games"> Sports Games </label>
+			     	</div>
+			     	<div>
+			     		<input type = "checkbox" id = "racing" name = "racing" value = "text">
+			     		<label for = "racing"> Racing Games </label>
+			     	</div>
+		     	</div>
+		    	<div id = "check_age">
+		     		<input type = "radio" id = "age-verification" name = "age-verification" value ="18"/>
 		     		<label for = "age-verification"> Confirm that you are over 18 years old </label>
-		     </div>
-
-		     <div id ="notification_check">
-		     		<input type = "radio" id = "receive_games_email" name = "receive_games_email" value = "text">
-		     		<label for = "receive_games_email"> I would like to receive notifications of new games only to my email </label>
-
-		     		<input type = "radio" id = "receive_games_phone" name = "receive_games_phone" value = "text">
-		     		<label for = "receive_games_phone"> I would like to receive notifications of new games only to my phone number </label>
-
-		     		<input type = "radio" id = "phone_email" name = "phone_email" value = "text">
-		     		<label for = "phone_email"> I would like to receive notifications of new games to my phone number and email </label>
-		     </div>
+		    	</div>
 
 		     <div id = "submit_button">
-		     		<input id = "submit" type = "submit" value = "Sign Up.">
+		     		<input id = "submit" type = "submit" value = "Sign Up">
 		     </div>
 			  </fieldset>
 		  </form>

@@ -38,11 +38,11 @@ h3{
 
 
 form{
-  background-color: #F27DBB;
+  background-color: #FFC79A;
   padding: 20px;
   border-radius: 1em;
   display:block;
-  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 
@@ -58,11 +58,102 @@ p{
   font-size: 1.3em;
   width: 70%;
   margin: 0 15% 0 15% ;
-  padding: 30px 0 30px 0;
+  padding: 15px 0 15px 0;
+  background-color: #AF81E8;
+  color: white;
+  border-radius: 10px;
+}
+
+label{
+  float: left;
+  width: 35%;
+  margin: 5% 0% 5% 5%;
+  text-align: center;
+  height: 25px;
 }
 
 
+input{
+  padding: 2px;
+  float: left;
+  width: 57%;
+  margin: 4% 0% 5% 0%;
+  display:block;
+  height: 25px;
+  border-width: 2.5px;
+  border-color: #0E9EE3;
+  font-size: 0.9em;
+  color: gray;
+}
 
+
+h2{
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+#game_check label{
+  font-size: 1em;
+  text-align: left;
+  width: 55%;
+  margin: 5% 10% 0% 0;
+  height: auto;
+  color: #3D5E89;
+}
+#game_check input{
+  height: auto;
+  width: 10%;
+  margin: 7% 0 0% 25%;
+  float: left;
+}
+
+#age-verification{
+  height: auto;
+  width: 10%;
+  margin: 6% 0 5% 0;
+  float: left;
+}
+#check_age label{
+  font-size: 1em;
+  text-align: left;
+  width: 90%;
+  margin: 5% 0 5% 0;
+  height: auto;
+}
+
+
+#submit{
+  width: 100%;
+  height: auto;
+}
+/*
+https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX 
+
+#first_name_field{
+  float: left;
+  width: 57%;
+  margin: 4% 0% 5% 0%;
+}
+
+#last_name_field{
+  float: left;
+  width: 57%;
+  margin: 4% 0% 5% 0%;
+}
+#username_field{
+  float: left;
+  width: 57%;
+  margin: 4% 0% 5% 0%;
+}
+#email_field{
+  float: left;
+  width: 57%;
+  margin: 4% 0% 5% 0%;
+}
+*/
 
 @media screen and (min-width: 480px){
 
@@ -106,7 +197,7 @@ p{
     font-size: 1em;
   }
 
-  
+
   #content{
     width: 70%;
     margin: 5% 15% 5% 15%;
