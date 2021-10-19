@@ -190,6 +190,14 @@ https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX
   label{
     font-size: 1.1em;
   }
+
+  #game_check label{
+    width: 50%;
+  }
+ 
+  #check_age label{
+    width: 85%;
+  }
 }
 
 

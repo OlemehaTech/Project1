@@ -24,14 +24,15 @@ function checkFields(){
 		return true;
 	}
 }
-
-document.getElementById("submit"). addEventListener("click", 
-	function(evt){
+$(document).ready(function(){ 
+	const submitclick = document.getElementById('submit');
+	submitclick.addEventListener('click',function submit(evt){
 		evt.preventDefault();
 
 		if(checkFields()){
 			alert("Congratulations on Completing Your Sign Up! We will send you a confirmation via email: " + email +  " and phone: " + phoneNumber);
 		}
 		input.value = '';
-	}	
-);
+	})
+
+})
