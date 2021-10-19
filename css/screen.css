@@ -186,6 +186,9 @@ https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX
     width: 80%;
     margin: 5% 10% 5% 10%;
   }
+  label{
+    font-size: 1.1em;
+  }
 }
 
 
@@ -210,5 +213,9 @@ https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX
   #content{
     width: 70%;
     margin: 5% 15% 5% 15%;
+  }
+  #submit{
+    height: 90px;
+    margin-bottom: 0;
   }
 }
