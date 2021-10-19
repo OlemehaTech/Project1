@@ -20,7 +20,6 @@ function checkFields(){
 		return false;
 	}
 	else{
-		console.log('First Name: ${firstName} \n Last Name: ${lastName} \n UserName: ${userName} \n Email: ${email} \n Phone Number: ${phoneNumber} \n Date of Birth: ${dateBirth}');
 		return true;
 	}
 }
