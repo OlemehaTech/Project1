@@ -67,7 +67,7 @@ p{
 label{
   float: left;
   width: 35%;
-  margin: 5% 0% 5% 5%;
+  margin: 5% 0% 7% 5%;
   text-align: center;
   height: 25px;
 }
@@ -77,7 +77,7 @@ input{
   padding: 2px;
   float: left;
   width: 57%;
-  margin: 4% 0% 5% 0%;
+  margin: 4% 0% 7% 0%;
   display:block;
   height: 25px;
   border-width: 2.5px;
@@ -127,7 +127,16 @@ h2{
 
 #submit{
   width: 100%;
-  height: auto;
+  height: 70px;
+  background-color: #5A41A1;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+#submit:hover{
+  background-color: #9083B3;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 15px;
 }
 /*
 https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX 
