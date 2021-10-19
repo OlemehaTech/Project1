@@ -6,10 +6,7 @@ var phoneNumber = document.getElementById("phone_field").value;
 var dateBirth = document.getElementById("date_field").value;
 
 
-function jsSwitch(){
-	var html = document.getElementByTagName('html')[0];
-	html.setAttribute('class','hasjs');
-}
+
 function checkFields(){
 	if(firstName == null || lastName == null || userName == null || email == null || phoneNumber == null || dateBirth == null){
 		alert("All fields should be filled in! Please check and fill in the missing fields.");
@@ -23,11 +20,11 @@ function checkFields(){
 		return false;
 	}
 	else{
+		console.log('First Name: ${firstName} \n Last Name: ${lastName} \n UserName: ${userName} \n Email: ${email} \n Phone Number: ${phoneNumber} \n Date of Birth: ${dateBirth}');
 		return true;
 	}
 }
 
-window.addEventListener('load',jschg);
 document.getElementById("submit"). addEventListener("click", 
 	function(evt){
 		evt.preventDefault();
