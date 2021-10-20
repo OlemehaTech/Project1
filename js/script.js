@@ -10,11 +10,10 @@ function checkFields(){
 
 
 	if(firstName == "" || lastName == "" || userName == "" || email == ""|| phoneNumber == "" || dateBirth == ""){
-		document.getElementById("errorMsg").innerHTML = "All fields should be filled in! Please check and fill in the missing fields.";
+		alert("All fields should be filled in! Please check and fill in the missing fields.");
 		return false;
-	} 
-	if(!document.getElementById("age-verification").checked){
-		document.getElementById("errorMsg").innerHTML = "You Must Be 18 or Over!";
+	}else if(!document.getElementById("age-verification").checked){
+		alert("You Must Be 18 or Over!");
 		return false;
 	}else if(!document.getElementById("shooter_games").checked && !document.getElementById("puzzle_games").checked && !document.getElementById("sports_games").checked && !document.getElementById("racing_games").checked){
 		alert("At Least One Should be Checked!");
@@ -24,15 +23,7 @@ function checkFields(){
 		return true;
 	}
 }
-$(document).ready(function(){ 
-	const submitclick = document.getElementById('submit');
-	submitclick.addEventListener('click',function submit(evt){
-		evt.preventDefault();
-
-		if(checkFields()){
-			alert("Congratulations on Completing Your Sign Up! We will send you a confirmation via email: " + email +  " and phone: " + phoneNumber);
-		}
-		input.value = '';
-	})
-
-})
+document.getElementById('submit').onclick = function(){
+	checkFields();
+	alert("Sign Up Complete!");
+}
