@@ -100,12 +100,14 @@ h2{
     margin: 2% 0% 2% 10%;
 }
 
-#age-verification{
+#check_age input{
     width: 30%;
-    margin: 5% 0% 2% 15%;
+    margin: 2% 0% 2% 10%;
 }
 #check_age label{
     width: 60%;
+    margin: 0 5% 0 0%;
+    text-align: left;
 }
 
 #submit{
