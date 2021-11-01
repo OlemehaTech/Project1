@@ -1,4 +1,8 @@
-
+window.addEventListener('load', function(){
+    document.getElementById('submit').addEventListener("submit", function(){
+        checkFields();
+    })
+});
 
 function checkFields(){
 	var firstName = document.getElementById("first_name_field").value;
@@ -20,10 +24,7 @@ function checkFields(){
 		return false;
 	}
 	else{
+		alert("Sign Up Complete!");
 		return true;
 	}
-}
-document.getElementById('submit').onclick = function(){
-	checkFields();
-	alert("Sign Up Complete!");
 }

@@ -1,203 +1,169 @@
 body{
-  background-color: #83A1E7;
-  font-family: Anton, sans-serif;
-  font-size: 1.5em;
-  margin: auto;
+    background-color: #83A1E7;
+    font-family: Anton, sans-serif;
+    font-size: 1.5em;
+    margin: auto;
 }
-
 
 #title{
-  text-align: center;
-  background-color: #AF81E8;
+    text-align: center;
+    background-color: #AF81E8;
 }
-
-
-h1{
-  width: 70%;
-  margin: 0 15% 0 15%;
-  padding: 30px 0px 30px 0px;
-  font-size: 2em;
-  color: white;
-  box-sizing: border-box;
-}
-
-
-h3{
-  width: 98%;
-  padding: 20px 10px 20px 10px;
-  background-color: #F27DBB;
-  font-size: 1.3em;
-}
-
 
 #content{
-  width: 95%;
-  margin: 2.5%;
-  height: auto;
+    width: 95%;
+    margin: 2.5%;
+    height: auto;
 }
 
+h1{
+    width: 70%;
+    margin: 0 15% 0 15%;
+    padding: 30px 0px 30px 0px;
+    font-size: 2em;
+    color: white;
+    box-sizing: border-box;
+}
+
+h3{
+    width: 98%;
+    padding: 20px 10px 20px 10px;
+    background-color: #F27DBB;
+    font-size: 1.3em;
+}
 
 form{
-  background-color: #FFC79A;
-  padding: 20px;
-  border-radius: 1em;
-  display:block;
-  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.14);
+    background-color: #FFC79A;
+    padding: 20px;
+    border-radius: 1em;
+    display:block;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.14);
 }
 
 
 fieldset{
-  background-color: #F0D4E3;
-  border-style: none;
-  padding: 15px;
+    background-color: #F0D4E3;
+    border-style: none;
+    padding: 15px;
 }
 
 
 p{
-  text-align: center;
-  font-size: 1.3em;
-  width: 70%;
-  margin: 0 15% 5% 15%;
-  padding: 15px 0 15px 0;
-  background-color: #AF81E8;
-  color: white;
-  border-radius: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    width: 70%;
+    margin: 0 15% 5% 15%;
+    padding: 15px 0 15px 0;
+    background-color: #AF81E8;
+    color: white;
+    border-radius: 10px;
 }
 
 label{
-  width: 90%;
-  margin: 5% 5% 0% 5%;
-  text-align: left;
-  font-size: 1.3em;
+    width: 90%;
+    margin: 5% 5% 0% 5%;
+    font-size: 1.3em;
 }
 
 input{
-  padding: 2px;
-  width: 90%;
-  margin: 0% 5% 5% 5%;
-  height: 35px;
-  border-width: 2.5px;
-  border-color: #0E9EE3;
-  font-size: 0.9em;
-  color: gray;
+    padding: 2px;
+    width: 90%;
+    margin: 0% 5% 5% 5%;
+    height: 35px;
+    border-width: 2.5px;
+    border-color: #0E9EE3;
+    font-size: 0.9em;
+    color: gray;
 }
 
 
 h2{
-  width: 70%;
-  margin: 0 15% 0 15%;
-  text-align: center;
-  font-size: 1.3em;
+    width: 70%;
+    margin: 3% 15% 3% 15%;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 #game_check label{
-  font-size: 1.3em;
-  color: #3D5E89;
-  width: 70%;
-  margin: 2% 0% 2% 0%;
-  text-align: left;
+    font-size: 1.3em;
+    color: #3D5E89;
+    width: 60%;
+    margin: 0 5% 0 0%;
+    text-align: left;
 }
 
 #game_check input{
-  width: 30%;
-  margin: 2% 0% 2% 0%;
+    width: 30%;
+    margin: 2% 0% 2% 10%;
 }
 
 #age-verification{
-  width: 30%;
-  margin: 5% 0% 2% 0%;
+    width: 30%;
+    margin: 5% 0% 2% 15%;
 }
 #check_age label{
-  font-size: 1.3em;
-  margin: 5% 0% 2% 0%;
-  text-align: left;
-  overflow: hidden;
+    width: 60%;
 }
-
 
 #submit{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  height: 70px;
-  background-color: #5A41A1;
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 70px;
+    background-color: #5A41A1;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    box-sizing: border-box;
 }
 #submit:hover{
-  background-color: #9083B3;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border-radius: 15px;
-}
-/*
-https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX 
-
-#first_name_field{
-  float: left;
-  width: 57%;
-  margin: 4% 0% 5% 0%;
+    background-color: #9083B3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
 }
 
-#last_name_field{
-  float: left;
-  width: 57%;
-  margin: 4% 0% 5% 0%;
-}
-#username_field{
-  float: left;
-  width: 57%;
-  margin: 4% 0% 5% 0%;
-}
-#email_field{
-  float: left;
-  width: 57%;
-  margin: 4% 0% 5% 0%;
-}
-*/
 
 @media screen and (min-width: 480px){
 
 
   body{
-    font-size: 1.3em;
+      font-size: 1.3em;
   }
 
 
   h1{
-    font-size: 1.7em;
+      font-size: 1.7em;
   }
 
 
   h3{
-    font-size: 1.1em;
+      font-size: 1.1em;
   }
 
   input{
-    height: 30px;
+      height: 30px;
   }
 
   #content{
-    width: 90%;
-    margin: 5%;
+      width: 90%;
+      margin: 5%;
   }
   label{
-    font-size: 1.1em;
+      font-size: 1.1em;
   }
 
   #game_check label{
-    font-size: 1.2em;
+     font-size: 1.2em;
   }
  
   #check_age label{
-    font-size: 1.2em;
+      font-size: 1.2em;
   }
   #submit{
-    width: 85%;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+      width: 85%;
+      margin-left: 7.5%;
+      margin-right: 7.5%;
   }
 }
 
@@ -206,29 +172,29 @@ https://paletton.com/#uid=54U1h0kafH5juqcdnsE6jV25tXX
 
 
   body{
-    font-size: 1.2em;
+      font-size: 1.2em;
   }
 
 
   h1{
-    font-size: 1.6em;
+      font-size: 1.6em;
   }
 
 
   h3{
-    font-size: 1em;
+      font-size: 1em;
   }
 
   input{
-    height: 25px;
+      height: 25px;
   }
   #content{
-    width: 85%;
-    margin: 5% 10% 5% 10%;
+      width: 85%;
+      margin: 5% 10% 5% 10%;
   }
   #submit{
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
+      width: 95%;
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+  } 
 }
