@@ -1,3 +1,5 @@
+/* ===== BASE STYLES ===== */
+
 body{
     background-color: #83A1E7;
     font-family: Anton, sans-serif;
@@ -84,6 +86,7 @@ h2{
     font-size: 1.3em;
 }
 
+/* ===== LAYOUT STYLES ====== */
 #game_check label{
     font-size: 1.3em;
     color: #3D5E89;
@@ -123,7 +126,7 @@ h2{
     border-radius: 15px;
 }
 
-
+/* ===== STATE STYLES ===== */
 @media screen and (min-width: 480px){
 
 
